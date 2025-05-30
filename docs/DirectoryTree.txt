@@ -1,0 +1,26 @@
+CSCK541_GroupB
+├── docs                          # Documentation directory
+│   ├── DirectoryTree.txt         # File containing the project's directory structure
+│   ├── LICENCE                   # Licence file for the project
+│   ├── README.md                 # Project readme file with overview and instructions
+│   └── requirements.txt          # List of project dependencies
+├── src                           # Source code directory
+│   ├── .gitignore                # Git ignore file for specifying untracked files
+│   ├── data                      # Data models and management
+│   │   ├── airline.py            # Airline class definition
+│   │   ├── client.py             # Client class definition
+│   │   ├── flight.py             # Flight class definition
+│   │   ├── record_manager.py     # RecordManager class for data operations
+│   │   └── __init__.py           # Makes data a Python package
+│   ├── gui                       # Graphical User Interface components
+│   │   ├── airline_gui.py        # AirlineGUI class for airline record management
+│   │   ├── client_gui.py         # ClientGUI class for client record management
+│   │   ├── flight_gui.py         # FlightGUI class for flight record management
+│   │   ├── gui.py                # Main GUI class (TravelAgentApp)
+│   │   └── __init__.py           # Makes gui a Python package
+│   ├── main.py                   # Entry point of the application
+│   └── record                    # Directory for storing record data
+│       └── record.jsonl          # JSONL file for persistent data storage
+└── tests                         # Test directory
+    ├── unit_tests.py             # Unit tests for the application
+    └── __init__.py               # Makes tests a Python package
